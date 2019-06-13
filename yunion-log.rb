@@ -34,7 +34,7 @@ class YunionLog < Formula
   admin_user = 'sysadmin'
   admin_password = 'sysadmin'
   admin_tenant_name = 'system'
-  sql_connection = 'mysql+pymysql://root:password@10.127.10.228:3306/yunionlogger?charset=utf8'
+  sql_connection = 'mysql+pymysql://root:password@127.0.0.1:3306/yunionlogger?charset=utf8'
 
   auto_sync_table = True
 
