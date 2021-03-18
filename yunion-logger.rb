@@ -1,10 +1,9 @@
 class YunionLogger < Formula
   desc "Yunion Cloud Logger Controller server"
   homepage "https://github.com/yunionio/onecloud.git"
+  version_scheme 1
   head "https://github.com/yunionio/onecloud.git",
     :branch      => "master"
-  version_scheme 1
-  head "https://github.com/yunionio/onecloud.git"
 
   depends_on "go" => :build
 
