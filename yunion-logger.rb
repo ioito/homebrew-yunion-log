@@ -12,7 +12,7 @@ class YunionLogger < Formula
 
     (buildpath/"src/yunion.io/x/onecloud").install buildpath.children
     cd buildpath/"src/yunion.io/x/onecloud" do
-      system "make", "cmd/logger"
+      system "make", "GOOS=darwin", "cmd/logger"
       bin.install "_output/bin/logger"
       prefix.install_metafiles
     end
