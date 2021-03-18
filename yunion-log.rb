@@ -2,7 +2,7 @@ class YunionLog < Formula
   desc "Yunion Cloud Logger Controller server"
   homepage "https://github.com/yunionio/onecloud.git"
   url "https://github.com/yunionio/onecloud.git",
-    :tag      => "release/2.10.0"
+    :branch      => "master"
   version_scheme 1
   head "https://github.com/yunionio/onecloud.git"
 
