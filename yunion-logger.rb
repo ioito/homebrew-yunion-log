@@ -1,4 +1,4 @@
-class YunionLog < Formula
+class YunionLogger < Formula
   desc "Yunion Cloud Logger Controller server"
   homepage "https://github.com/yunionio/onecloud.git"
   url "https://github.com/yunionio/onecloud.git",
